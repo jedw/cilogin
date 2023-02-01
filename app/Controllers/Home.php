@@ -40,12 +40,12 @@ class Home extends BaseController
             }
             else
             {
-                return "login failed";
+                return view('loginfailed');
             }
         }
         else
         {
-            return "login failed";
+            return view('loginfailed');
         }
     }
 
